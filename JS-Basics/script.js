@@ -1,17 +1,23 @@
-var firstName = 'Polipx';
-var age = 28;
-//Type coercion
-console.log(firstName + ' ' + age);
+//Basic operators
+var year, yearJohn, yearMark;
+now = 2018;
+ageJohn = 28;
+ageMark = 33;
+//Math Operators
+yearJohn = now - 28;
+yearMark = now - 33;
 
-var job, isMarried;
-job  = 'Teacher';
-isMarried = false;
+console.log(yearJohn);
+console.log(now + 2);
+console.log(now * 2);
+console.log(now / 2);
 
-console.log(firstName + ' is a ' + age + ' year old' + job + '. Is he married? ' + isMarried);
+//Logical operators
+var johnOlder = ageJohn > ageMark;
+console.log(johnOlder);
 
-age = 'twenty eight';
-job = 'driver';
-alert(firstName + ' is a ' + age + ' year old' + job + '. Is he married? ' + isMarried);
-
-var lastName = prompt('What is his last Name');
-console.log(firstName + ' ' + lastName);
+// typeof operator
+console.log(typeof johnOlder);
+console.log(typeof ageJohn);
+console.log(typeof 'Mark is older than John');
+console.log(typeof x);
