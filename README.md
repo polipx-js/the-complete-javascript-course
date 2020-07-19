@@ -1,1 +1,1 @@
-# the-complete-javascript-course
+# the-complete-javascript-course-polipx.js
